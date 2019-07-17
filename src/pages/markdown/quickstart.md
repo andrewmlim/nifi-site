@@ -6,9 +6,9 @@ title:     Apache NiFi Development Quickstart
 
 ## Source Code
 
-Apache NiFi source code is version controlled using [Git][git] version control ([browse][gitbrowse]|[checkout][gitrepo]) and mirrored to [Github][githubrepo].
-<br />The NiFi website source code is available ([browse][gitbrowsenifisite]|[checkout][gitreponifisite]).
-<br />The NiFi Nar maven plugin source code is available ([browse][gitbrowsenifimaven]|[checkout][gitreponifimaven]).
+Apache NiFi source code is version controlled using [Git][git] version control ([browse][gitbrowse]|[checkout][gitrepo]) and mirrored to [GitHub][githubrepo].
+<br />The NiFi website source code is available ([browse][gitbrowsenifisite]|[checkout][gitreponifisite]) and mirrored to [GitHub][githubreposite].
+<br />The NiFi NAR maven plugin source code is available ([browse][gitbrowsenifimaven]|[checkout][gitreponifimaven]) and mirrored to [GitHub][githubrepoplugin].
 
 ## Issue Tracking
 
@@ -36,7 +36,7 @@ git config --global core.autocrlf false
 To check out the code:
 
 ```
-git clone https://git-wip-us.apache.org/repos/asf/nifi.git
+git clone https://gitbox.apache.org/repos/asf/nifi.git
 ```
 <br/>
 Then checkout the 'master' branch (which should be the default)
@@ -170,10 +170,12 @@ is ready for use:
 [maven]: https://maven.apache.org/
 [jira]: https://issues.apache.org/jira/browse/NIFI
 [git]: https://git-scm.com/
-[gitbrowse]: https://git-wip-us.apache.org/repos/asf?p=nifi.git;a=summary
-[gitbrowsenifisite]: https://git-wip-us.apache.org/repos/asf?p=nifi-site.git;a=summary
-[gitbrowsenifimaven]: https://git-wip-us.apache.org/repos/asf?p=nifi-maven.git;a=summary
-[gitrepo]: https://git-wip-us.apache.org/repos/asf/nifi.git
-[gitreponifisite]: https://git-wip-us.apache.org/repos/asf/nifi-site.git
-[gitreponifimaven]: https://git-wip-us.apache.org/repos/asf/nifi-maven.git
-[githubrepo]: https://github.com/apache/nifihttps://git-wip-us.apache.org/repos/asf/nifi-maven.git
+[gitbrowse]: https://gitbox.apache.org/repos/asf?p=nifi.git;a=summary
+[gitbrowsenifisite]: https://gitbox.apache.org/repos/asf?p=nifi-site.git;a=summary
+[gitbrowsenifimaven]: https://gitbox.apache.org/repos/asf?p=nifi-maven.git;a=summary
+[gitrepo]: https://gitbox.apache.org/repos/asf/nifi.git
+[gitreponifisite]: https://gitbox.apache.org/repos/asf/nifi-site.git
+[gitreponifimaven]: https://gitbox.apache.org/repos/asf/nifi-maven.git
+[githubrepo]: https://github.com/apache/nifi
+[githubreposite]: https://github.com/apache/nifi-site
+[githubrepoplugin]: https://github.com/apache/nifi-maven
